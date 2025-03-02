@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Image Gallery</title>
+   <style>
+    h1{
+        color: rgb(255, 255, 255);
+        background-color: crimson;
+        font-family:'Times New Roman', Times, serif;
+    }
+       body {
+           font-family: Arial, sans-serif;
+           margin: 10;
+           padding: 10;
+       }
+       .gallery {
+           display: flex;
+           flex-wrap: wrap;
+           gap: 10px;
+           justify-content: center;
+           padding: 20px;
+       }
+       .gallery img {
+           width: 200px;
+           height: 150px;
+           object-fit: cover;
+           border-radius: 10px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           transition: transform 0.3s;
+       }
+       .gallery img:hover {
+           transform: scale(1.1);
+       }
+   </style>
+</head>
+<body>
+<h1 style="text-align:center;">Formula 1 Drivers</h1>
+ 
+   <div class="gallery">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/hamilton alt="Lewis Hamilton">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/leclerc alt="Charles Leclerc">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/verstappen alt="Max Verstappen">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/norris alt="Lando Norris">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/russell alt="George Russell">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2024Drivers/stroll alt="Lance Stroll">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/alonso alt="Fernando Alonso">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/tsunoda alt="Yuki Tsunoda">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/piastri alt="Oscar Piastri">
+       <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/lawson alt="Liam Lawson">
+        <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/sainz alt="Carlos Sainz">
+        <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/albon alt="Alexander Albon">
+        <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/gasly alt="Pierre Gasly">
+        <img src=https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/fom-website/drivers/2024Drivers/doohan alt="Jack Doohan">
+ 
+ 
+   </div>
+ 
+</body>
+</html>
